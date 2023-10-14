@@ -1,0 +1,104 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap'); */
+
+@import url('https://fonts.cdnfonts.com/css/major-mono-display?styles=31334');
+
+                
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    /* align-content: center; */
+    justify-content: space-between;
+    background-color: black;
+  
+    
+}
+
+.left-side {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: flex-start; */
+    
+}
+
+#logo {
+    object-fit: none;
+    padding: 0px 15px;
+    margin: 0px 10px;
+    /* justify-content: flex-start; */
+}
+
+#commonplace-coop {
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Major Mono Display", sans-serif;
+    color: white;
+    /* padding: 0px 5px; */
+
+    /* font-style: normal;
+    font-stretch: normal;
+    text-align: start;
+    line-height: initial;
+    font-optical-sizing: auto; */
+}
+
+.right-side {
+   /* border: solid black; */
+   /* display: flex; */
+
+   padding: 0px 30px;
+   row-gap: 20px;
+    justify-content: flex-end;
+}
+
+.site-routes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+    font-family: 'Major Mono Display', sans-serif;
+    
+
+
+}
+
+#services {
+    color: #CAD4FF;
+    
+
+}
+
+#media {
+    color: #BEFDEA;
+    
+}
+
+#events {
+    color: #BEFDEA;
+    
+}
+
+#about {
+    color: #CAD4FF;
+    
+}
+
+#join {
+    color: #FFA89B;
+    
+    font-size: 24px;
+}
+
+#services, #media, 
+#events, #about, #join {
+    padding: 12px 20px;
+}
