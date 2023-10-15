@@ -6,17 +6,24 @@
 body {
     display: flex;
     flex-direction: column;
+    margin: 0px;
+    padding: 0px;
 }
 
+.header {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
 .nav-bar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px;
-    padding: 10px;
+    
     /* align-content: center; */
     justify-content: space-between;
-    background-color: black;
+    
   
     
 }
@@ -30,7 +37,7 @@ body {
 
 #logo {
     object-fit: none;
-    padding: 0px 15px;
+    padding: 0px 20px;
     margin: 0px 10px;
     /* justify-content: flex-start; */
 }
@@ -40,7 +47,7 @@ body {
     font-weight: 400;
     font-family: "Major Mono Display", sans-serif;
     color: white;
-    /* padding: 0px 5px; */
+    padding: 0px;
 
     /* font-style: normal;
     font-stretch: normal;
@@ -54,16 +61,16 @@ body {
    /* display: flex; */
 
    padding: 0px 30px;
-   row-gap: 20px;
-    justify-content: flex-end;
+   
+    /* justify-content: flex-end; */
 }
 
 .site-routes {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 0px 30px;
+    justify-content: space-evenly;
+    padding: 0 20px 0 0;
     
     font-family: 'Major Mono Display', sans-serif;
     
@@ -73,32 +80,38 @@ body {
 
 #services {
     color: #CAD4FF;
+    padding: 12px 20px;
     
 
 }
 
 #media {
     color: #BEFDEA;
+    padding: 12px 20px;
     
 }
 
 #events {
     color: #BEFDEA;
+    padding: 12px 20px;
     
 }
 
 #about {
     color: #CAD4FF;
+    padding: 12px 20px;
     
 }
 
 #join {
     color: #FFA89B;
-    
+    padding: 12px 20px;
     font-size: 24px;
 }
 
-#services, #media, 
+/* #services, #media, 
 #events, #about, #join {
+    display: flex;
     padding: 12px 20px;
-}
+    
+} */
