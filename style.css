@@ -147,7 +147,7 @@ body {
     font-family: 'Major Mono Display', Arial, Helvetica;
     font-size: 96px;
     line-height: 84px;
-    margin: 0 0px 0 0;
+    margin: 0px 0px 0px 0px;
     padding: 0 0px 0 0;
 }
 .text-right {
@@ -157,7 +157,7 @@ body {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 32px;
     margin: 0px;
-    padding: 10px 0px 0px 0px;
+    padding: 5px 0px 5px 0px;
     
 }
 
@@ -172,3 +172,39 @@ body {
 margin: auto;
 padding: auto;
 }
+
+.black-space {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    background-color: black;
+}
+
+.tagline-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+#cooperative {
+    color: white;
+    font-family: 'Major Mono Display', Arial, Helvetica;
+    font-size: 96px;
+    line-height: 84px;
+    margin: 0 0px 0 0;
+    padding: 0 0px 0 0;
+}
+
+#is-common {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 32px;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    text-align: right;
+}
+
