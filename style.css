@@ -259,8 +259,41 @@ padding: auto;
 .blurb-text {
     font-family: 'Libre Franklin', sans-serif;
     font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    
+    
+}
+
+.blurb-text strong {
+   
+    
     font-weight: 700;
-    line-height: 100%;
+    
+
+}
+
+.blurb-p-one {
+    margin: 0;
+    padding: 40px 0 0 40px;
+}
+.blurb-p-two {
+    margin: 0;
+    padding: 0px 0 0 40px;
+}
+
+#blurb-text-one, #blurb-text-two, #blurb-text-three {
+    margin: 2px;
+}
+
+#blurb-text-three {
+    padding: 0px 0 8px 0;
+}
+#blurb-text-four, #blurb-text-five, #blurb-text-six, 
+#blurb-text-seven  {
+    margin: 2px;
+    
+   
 }
 
 
