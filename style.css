@@ -303,13 +303,18 @@ padding: auto;
 .text-image-container {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #ai-handshake {
     object-fit: none;
     margin: 0;
     padding: 0;
-    
+    width: 205px;
+    height: 160px;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 100%;
 }
 
 
