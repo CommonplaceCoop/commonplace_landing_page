@@ -3,7 +3,7 @@
 @import url('https://fonts.cdnfonts.com/css/major-mono-display?styles=31334');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&family=Major+Mono+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
                 
 body {
     display: flex;
@@ -256,131 +256,134 @@ padding: auto;
     height: 257px;
     background-color: #FAF5F4;
     border-radius: 27px;
+    /* justify-content: center; */
     filter: drop-shadow(0px 4px 4px #000000)
     
 }
 
 .blurb-text {
-    font-family: 'Libre Franklin', sans-serif;
+    color: #333;
+    font-family: Libre Franklin;
     font-size: 16px;
+    font-style: normal;
     font-weight: 400;
     line-height: 150%;
+    /* top: 39px;
+    left: 45px; */
+    padding: 39px 32px 42px 45px;
+}
+
+
+.blurb-paragraph {
+    width: 482px;
+    height: 176px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
+}
+
+.blurb-photo {
+    
+    display: flex;
+    width: 205px;
+    justify-content: center;
+    align-items: center;
     
 }
 
-.blurb-text strong {
-   
+.ai-handshake {
+
+    border-radius: 24px;
+    border: 1px solid #000;
+    background: #FFF;
+    flex-shrink: 0;
     
-    font-weight: 700;
-    
-
 }
 
-.blurb-p-one {
-    margin: 0;
-    padding: 40px 0 0 40px;
-}
-.blurb-p-two {
-    margin: 0;
-    padding: 0px 0 0 40px;
-}
 
-#blurb-text-one, #blurb-text-two, #blurb-text-three {
-    margin: 2px;
-}
-
-#blurb-text-three {
-    padding: 0px 0 8px 0;
-}
-#blurb-text-four, #blurb-text-five, #blurb-text-six, 
-#blurb-text-seven  {
-    margin: 2px;
-    
-   
-}
-
-.text-image-container {
+ .text-image-container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    
 }
 
-#ai-handshake {
-    object-fit: none;
-    margin: 0;
-    padding: 0;
-    width: 205px;
-    height: 160px;
-    border-radius: 24px;
-    border-style: solid;
-    border-width: 100%;
-}
 
 .Join-the-E-List {
     display: flex;
     flex-direction: column;
-    margin: 0;
-    padding: 0;
-    
 }
 
 .Join-text {
+    width: 460px;
     color: var(--Gray-1, #333);
     font-family: Major Mono Display;
     font-size: 32px;
     font-style: normal;
     font-weight: 400;
-    line-height: 38.4px; 
-    /* text-transform: uppercase; */
+    line-height: 120%; /* 38.4px */
+    text-transform: uppercase;
+    padding-bottom: 6px;
 }
 
-.email-rect {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-content: center;
-    /* width: 467px;
-    height: 33px; */
-    /* flex-shrink: 0; */
+.email-form {
+    width: 468px;
+    height: 33px;
+    flex-shrink: 0;
     border-radius: 12px;
     border: 1px solid #FF6F59;
     background: #FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     margin: 0;
+    padding: 0;
 }
 
 #email {
+    width: 430px;
     color: #7A7D8A;
     font-family: Libre Franklin;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 24px;
+    line-height: 150%; /* 24px */
     border: none;
-    margin: 0px 10px;
     padding: 0;
+    margin: 5px;
+    
 }
 
-#submit-bttn {
+.rect-bttn {
+    
+}
+
+#submit-bttn  {
+    display: flex;
     width: 102px;
     height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     flex-shrink: 0;
     border-radius: 12px;
+    background: #DB5945; 
     border: none;
-    background: #DB5945;
-
     color: #FAF5F4;
     text-align: center;
+    text-decoration: none;
     font-family: Roboto;
     font-size: 17px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+
+
 }
 
-
-
-
-
-
+.right-side-blurb {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
