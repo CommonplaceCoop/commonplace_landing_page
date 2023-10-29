@@ -414,3 +414,131 @@ padding: auto;
     line-height: 32px; /* 100% */
     text-transform: lowercase;
 }
+
+
+.about-us-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.about-button {
+    display: flex;
+    flex-direction: row;
+    
+
+}
+
+.about-buttn-rect {
+    width: 314px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FAF5F4;
+    margin: 0;
+    padding: 0;
+
+}
+
+.about-us-button-text {
+    width: 257px;
+    border: none;
+    text-decoration: none;
+    background-color: none;
+    color: #222327;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.about-us-frame {
+    display: inline-flex;
+    padding: 30px 46px 16px 31px;
+    /* align-items: flex-start; */
+    gap: 26px;
+    border-radius: 24px;
+    border: 1px solid #D7D2D1;
+    background: #222327;
+    width: 683px;
+    height: 192px;
+}
+
+.frame-text-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-content: center; */
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    width: 509px;
+    height: 192px;
+    
+}
+
+ .text-list {
+    margin: 0px 0px 0px 0px;
+    padding: 15px 0px 0px 32px;
+ }
+
+.mission-text {
+    color: #FAF5F4;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* text-align: left; */
+    margin: -5px 0px 0px 0px;
+    padding: 0px 0px 0px 0px; 
+}
+.frame-text {
+    color: #FAF5F4;
+    font-family: Libre Franklin;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+    
+}
+
+/* .whiteboard {
+    display: flex;
+    width: 148px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 12px 0px 0px 12px;
+    background: #FFF;
+} */
+#whiteboard {
+    display: flex;
+    width: 148px;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 12px 0px 0px 12px;
+    background: #FFF;
+    margin-right: 10px;
+}
+    
+
+
+
+.about-commonplace {
+
+}
+
+.about-commonplace-rect {
+
+}
+
+.learn-more {
+
+}
