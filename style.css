@@ -85,6 +85,7 @@ body {
 #services {
     color: #CAD4FF;
     padding: 12px 20px;
+    text-decoration: none;
     
     
 
@@ -93,25 +94,26 @@ body {
 #media {
     color: #BEFDEA;
     padding: 12px 20px;
-    
+    text-decoration: none;
 }
 
 #events {
     color: #BEFDEA;
     padding: 12px 20px;
-    
+    text-decoration: none;
 }
 
 #about {
     color: #CAD4FF;
     padding: 12px 20px;
-    
+    text-decoration: none;
 }
 
 #join {
     color: #FFA89B;
     padding: 12px 20px;
     font-size: 24px;
+    text-decoration: none;
 }
 
 /* #services, #media, 
