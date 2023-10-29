@@ -395,3 +395,22 @@ padding: auto;
     justify-content: space-between;
 }
 
+/* About me section */
+
+.About-us {
+    margin: 0;
+    padding: 0;
+    background-color: #7A7D8A;
+}
+
+.work-together {
+    width: 578px;
+    color: #FAF5F4;
+    text-align: right;
+    font-family: Major Mono Display;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 100% */
+    text-transform: lowercase;
+}
