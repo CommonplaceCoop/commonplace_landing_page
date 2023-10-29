@@ -532,13 +532,28 @@ padding: auto;
 
 
 .about-commonplace {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .about-commonplace-rect {
+    width: 264px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background-color: #B9C6FF;
 
 }
 
 .learn-more {
-
+    /* width: 224px; */
+    color: #222327;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
