@@ -21,6 +21,19 @@ body {
     padding: 0px;
 }
 
+button {
+    background: #FAF5F4;
+    border-radius: 30px;
+    margin: 0;
+    padding: 4px 8px;
+    width: min-content;
+    color: #222327;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
 
 /* Header */
 .header {
@@ -275,7 +288,7 @@ padding: auto;
 
 .blurb-text {
     color: #333;
-    font-family: Libre Franklin;
+    font-family: 'Libre Franklin';
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -436,7 +449,7 @@ padding: auto;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    margin: 0px -90px 0px 0px;
+    /* margin: 0px -90px 0px 0px; */
     padding: 0px 0px 0px 0px;
    
 
